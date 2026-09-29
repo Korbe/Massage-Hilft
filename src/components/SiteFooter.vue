@@ -82,6 +82,18 @@ const toTop = () => route.path === '/' && window.scrollTo({ top: 0, behavior: 's
           <button class="hover:text-white" @click="openCookieSettings">Cookie-Einstellungen</button>
         </div>
       </div>
+
+      <p class="mt-8 text-center text-sm text-white/60 sm:text-base">
+        Developed with
+        <span class="inline-block text-brand-400 motion-safe:animate-pulse" aria-label="Liebe">♥</span>
+        by
+        <a
+          href="https://korbitsch.at"
+          target="_blank"
+          rel="noopener"
+          class="font-semibold text-white/80 underline-offset-4 transition hover:text-white hover:underline"
+        >Ing. Lukas Korbitsch</a>
+      </p>
     </div>
   </footer>
 </template>
